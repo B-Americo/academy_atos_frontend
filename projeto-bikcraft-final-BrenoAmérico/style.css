@@ -1,0 +1,3377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --c12: #000;
+    --c11: #111;
+    --c10: #2E2E2E;
+    --c9: #404040;
+    --c8: #595959;
+    --c7: #717171;
+    --c6: #9C9C9C;
+    --c5: #B2B2B2;
+    --c4: #CCC;
+    --c3: #DEDEDE;
+    --c2: #EDEDED;
+    --c1: #F7F7F7;
+    --w: #FFF;
+    --p5: #332200;
+    --p4: #664400;
+    --p3: #A66F00;
+    --p2: #E4A30B;
+    --p1: #FFBB00;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: var(--c12);
+}
+
+.header-container {
+    width: 1200px;
+    height: 96px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container img {
+    margin-top: 32px;
+}
+
+.header-container nav ul {
+    list-style: none;
+    line-height: 96px;
+    color: var(--w);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    gap: 40px;
+}
+
+.header-container nav ul li {
+    display: inline;
+}
+
+.menu-ativo {
+    text-decoration: underline 2px;
+    text-underline-offset: 8px;
+}
+
+.main-titulo {
+    background-color: var(--c12);
+}
+
+
+.main-titulo-home{
+
+    width: 1200px;
+    margin: auto;
+    background-color: var(--c12);
+    height: 680px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.main-titulo-ajuste-titulo {
+    background-color: var(--c11);
+}
+
+.main-titulo-ajuste-titulo p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--c5);
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+.main-titulo-ajuste-titulo h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--w);
+    text-transform: lowercase;
+    padding-bottom: 60px;
+}
+
+.main-titulo-ajuste-titulo h1::after {
+    content: ".";
+    color: var(--p1);
+}
+
+.main-container-ajuste-titulo {
+    width: 1200px;
+    margin: auto;
+}
+
+.main-conteudo-ajuste-titulo {
+    width: 1200px;
+    margin: auto;
+    margin-top: 124px;
+}
+
+.main-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.main-conteudo {
+    width: 1200px;
+    margin: auto;
+    margin-top: 124px;
+}
+
+.main-conteudo-container {
+    width: 760px;
+}
+
+.main-conteudo h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--c11);
+    margin-top: 48px;
+}
+
+.main-conteudo p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c10);
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--c12);
+    margin-top: 0px;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 24% 38% 38%;
+}
+
+footer h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--w);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+footer ul {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--c5);
+}
+
+footer p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--c6);
+    margin-top: 80px;
+    padding-bottom: 32px;
+}
+
+.footer-contato hr {
+    width: 360px;
+    border-color: var(--c11);
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+footer img {
+    margin-right: 32px;
+}
+
+
+/*----------INICIO----HOME--------------*/
+/*----------INICIO----HOME--------------*/
+/*----------INICIO----HOME--------------*/
+/*----------INICIO----HOME--------------*/
+/*----------INICIO----HOME--------------*/
+/*----------INICIO----HOME--------------*/
+
+.main-titulo-home-imagens{
+width: 640px;
+height: 800px;
+border-radius: 5px;
+}
+
+.main-titulo-home-descricao-h1{
+    width: 512px;
+    height: 144px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;  
+    color : var(--w);
+    margin-top: 200px;
+}
+
+.main-titulo-home-descricao-paragrafo{
+    width: 513px;
+    height: 108px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--c5);
+    margin-top: 32px;
+}
+
+.main-titulo-home-descricao-button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+width: 217px;
+height: 56px;
+background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+border: 0px;
+margin-top: 20px;
+cursor: pointer;
+}
+
+.main-titulo-home-descricao-button-paragrafo{
+    width: 153px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;
+}
+
+.desc-main-titulo-home{
+    background-color: var(--w);
+}
+
+.desc-main-titulo-home-escolha{
+    width: 1200px;
+    height: 620px;
+    margin: auto;
+    background-color: var(--w);
+}
+
+.desc-main-titulo-home-escolha-h1{
+
+width: 469px;
+height: 72px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+color: var(--c11);
+margin-top: 240px;
+}
+
+.desc-main-titulo-home-containerflex{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.desc-main-titulo-home-containerflex-container01{
+    width: 380px;
+    height: 420px;
+}
+
+
+.desc-main-titulo-home-containerflex-imagem01{
+    width: 380px;
+    height: 420px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.desc-main-titulo-home-containerflex-container01-A{
+display: flex;
+}
+
+
+
+
+.desc-main-titulo-home-containerflex-container01-A-retangulo{
+width: 12px;
+height: 8px;
+background: var(--p1);
+margin-top: 32px;
+}
+
+.desc-main-titulo-home-containerflex-container01-A-paragrafo{
+
+    width: 271px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--c11);
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+.desc-main-titulo-home-containerflex-container01-paragrafo{
+
+    width: 67px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.tecnologia-main-titulo-home{
+    background-color: var(--c11);
+    height: 960px;
+    margin-top: 188px;
+
+}
+
+
+.tecnologia-main-titulo-home-container{
+width: 1200px;
+margin: auto;
+height: 960px;
+background-color: var(--c11);
+}
+
+.tecnologia-main-titulo-home-container-BBB{
+    
+}
+
+.tecnologia-main-titulo-home-container-BBB-imagens{
+    width: 620px;
+    height: 1100px;
+    margin-top: 110px;
+    margin-left: 580px;
+    
+}
+
+.div-ajuste-background-home{
+    background-color: var(--w);
+}
+
+
+.div-ajuste-background-home-AAA{
+    background-color: var(--w);
+    width: 1200px;
+    margin: auto;
+    height: 0.1px;
+}
+
+
+.tecnologia-main-titulo-home-container-AA{
+
+}
+
+
+
+.tecnologia-main-titulo-home-container-paragrafo{
+width: 294px;
+height: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.015em;
+text-transform: uppercase;
+color: var(--c5);
+margin-top: 60px;
+}
+
+.tecnologia-main-titulo-home-container-h1{
+    width: 538px;
+    height: 216px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--w);
+    margin-top: 20px;
+}
+
+.tecnologia-main-titulo-home-container-paragrafo-01{
+width: 534px;
+height: 180px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: var(--c5);
+margin-top: 32px;
+}
+
+.tecnologia-main-titulo-home-container-paragrafo-02{
+
+    width: 261px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--p1);
+    text-transform: uppercase;
+}
+
+.tecnologia-main-titulo-home-container-sublinhado{
+width: 261px;
+height: 40px;
+margin-top: 20px;
+}
+
+.tecnologia-main-titulo-home-container-sublinhado-retangulo{
+    width: 261px;
+    height: 4px;
+    background: var(--p1);
+}
+
+.tecnologia-main-titulo-home-container-AA-00{
+    display: flex;
+    width: 543px;
+    height: 172px;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.tecnologia-main-titulo-home-container-AA-00-B{
+    margin-left: 40px;
+}
+
+
+
+
+
+.tecnologia-main-titulo-home-container-AA-00-A-imagem{
+width: 24px;
+height: 24px;
+}
+
+.tecnologia-main-titulo-home-container-AA-00-A-titulo{
+    width: 165px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--w);
+    margin-top: 8px;   
+}
+
+.tecnologia-main-titulo-home-container-AA-00-A-desc{
+    width: 261px;
+    height: 96px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c5);
+    margin-top: 8px;    
+}
+
+.marcas-main-titulo-home{
+    background-color: var(--w);
+    height: 653px;
+
+}
+
+.marcas-main-titulo-home-container{
+   background-color: var(--w);
+   width: 1300px;
+   height: 545px;
+   margin: auto; 
+
+}
+
+.marcas-main-titulo-home-container-h1{
+width: 599px;
+height: 72px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+color: var(--c11);
+margin-top: 120px;
+margin-left: 50px;
+}
+
+.marcas-main-titulo-home-container-01{
+
+width: 1300px;
+height: 260px;
+margin-top: 60px;
+}
+
+.marcas-main-titulo-home-container-01-A{
+    display: flex;
+}
+
+.marcas-main-titulo-home-container-01-A-marca01{
+width: 325px;
+height: 136px;
+background-color: var(--w);
+text-align: center;
+}
+
+.marcas-main-titulo-home-container-01-A-marca01-vertical{
+width: 2px;
+height: 136px;
+background: var(--c2);
+}
+
+
+.marcas-main-titulo-home-container-01-A-vertical{
+width: 1300px;
+height: 2px;
+background: var(--c2);
+}
+
+.marcas-main-titulo-home-container-01-A-marca01-imagem{
+width: 140px;
+height: 38px;
+margin-top: 49px;
+}
+
+
+.anajulia-container{
+
+display: flex;
+background-color: var(--p1);
+height: 680px;
+}
+
+.anajulia-container-principal{
+    width: 640px;
+    height: 680px;
+
+}
+
+.anajulia-container-principal{
+    width: 640px;
+    height: 680px;
+}
+
+.anajulia-container-principal2{
+    display: flex;
+}
+
+.anajulia-container-principal2-paragrafo{
+    width: 483px;
+    height: 240px;
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--p5);
+    margin-top: 296px;
+}
+
+.anajulia-container-principal2-aspas1{
+width: 40px;
+height: 35px;
+margin-left: 40px;
+margin-top: 278px;
+}
+
+.anajulia-container-principal2-aspas2{
+    width: 40px;
+    height: 35px;
+    margin-top: 513px;
+    left: 1165px;
+    position: absolute;
+    }
+
+.anajulia-container-paragrafo{
+
+width: 115px;
+height: 32px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: var(--p4);
+position: absolute;
+left: 720px;
+margin-top: 568px;
+}
+
+    .home-main-seguros{
+        background-color: var(--c11);
+        height: 630px;
+    
+    }
+    
+    
+    
+    .home-main-seguros-container{
+        width: 1200px;
+        height: 534px;
+        margin: auto;
+        background-color: var(--c11);
+        display: flex;
+        
+        
+    }
+    
+    .home-seguros-prata-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    }
+    
+    .home-seguros-prata-flex-paragradoA{
+    width: 114px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--w);
+    }
+    
+    .home-seguros-prata-flex-A{
+        margin-right: 32px;
+    }
+    
+    .home-seguros-prata-flex-paragradoB{
+        width: 46px;
+        height: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--c6);
+        margin-left: 65px;
+        margin-top: -10px;
+           
+    }
+    
+    
+    
+    .home-seguros-prata{
+    width: 560px;
+    height: 396px;
+    background-color: var(--c12);
+    margin-top: 104px;
+    border-radius: 5px;
+    }
+    
+    .home-seguros-prata td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    
+    }
+    
+    .home-seguros-prata-flex-h4{
+        width: 118px;
+        height: 48px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        color: var(--c6);
+        text-transform: uppercase;
+        margin-left: 64px;  
+    } 
+    
+    .home-seguros-ouro-flex-h4{
+        width: 118px;
+        height: 48px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        color: var(--p1);
+        text-transform: uppercase;
+        margin-left: 64px;  
+    }
+    
+    
+    
+    .home-seguros-prata-flex-paragradoC{
+    width: 362px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--w);
+    }
+    
+    .home-table-prata-seguros{
+    margin-left: 45px; 
+    margin-top: 0px;
+    border-spacing: 8px 20px;
+    }
+    
+    
+    
+    .home-container-prata-inscreva-se{
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 125px;
+    height: 26px;
+    background: var(--c10);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 13px;
+    }
+    
+    .home-container-prata-inscreva-se-paragrafo{
+        width: 121px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+       color: var(--c4);
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-transform: uppercase;
+    }
+    
+    
+    .home-seguros-ouro{
+        width: 560px;
+        height: 484px;
+        background-color: var(--c12);
+        margin-top: 60px;
+        margin-left: 80px;
+        border-radius: 5px;
+    
+    }
+    
+    
+    .home-container-ouro-inscreva-se{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 10px;
+        position: absolute;
+        width: 125px;
+        height: 26px;
+        background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-left: 60px;
+        margin-top: 13px;
+    }
+    
+    .home-container-ouro-inscreva-se-paragrafo{
+    width: 121px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;
+    }
+
+    /*----------FIM----HOME--------------*/
+  
+
+   /*----------INCIO----BICICLETAS--------------*/
+    /*----------INCIO----BICICLETAS--------------*/  
+     /*----------INCIO----BICICLETAS--------------*/  
+      /*----------INCIO----BICICLETAS--------------*/  
+       /*----------INCIO----BICICLETAS--------------*/  
+       
+       
+       .main-bicicletas{
+        background-color: var(--w);
+    }
+    
+    
+    
+    .lista-bicicleta-01{
+        width: 1200px;
+        margin: auto;
+        background-color: var(--w);
+        height: 340px;
+        margin-top: 120px;
+    }
+    .section-bicicleta01{
+    display: flex;
+    }
+    
+    /*TESTE*/
+    .imagem-bicicleta-01{
+        
+        background-repeat: no-repeat;
+        background-position: center, center;
+        width: 560px;
+        height: 340px;
+        border-radius: 5px;
+    }
+    
+    .container-valor-imagem-bicicleta01{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px 8px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    background-color: var(--c12);
+    margin-left: 465px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 20px;
+    }
+    
+    .texto-valor-bicicleta01{
+    width: 67px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--w);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    
+    .bike-container-section{
+    margin-left: 40px;
+    }
+    
+    .miniatura-retangulo{
+        width: 12px;
+        height: 8px;
+        background-color: var(--p1);
+    }
+    
+    .h6-bicicleta01{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--c11);
+    margin-top: 13px;
+    }
+    
+    .p-bicicleta01{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 447px;
+    height: 72px;
+    color: var(--c8);
+    }
+    .table-bicicletas{
+        margin-top: 16px;
+    
+    }
+    
+    .img-miniaturas-bicicletas{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .td-bicleta01-td{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--c8);
+        width: 124px;
+        height: 24px;
+        white-space: nowrap; /*Evitar quebra de linha na tabela*/
+        margin-top: 40px;
+        padding: 8px;
+    }
+    
+    
+    .button-bicicletas-maissobre-01{
+    
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 16px;
+        
+        position: absolute;
+        margin-top: 284px;
+        left: 1073px;
+        width: 206px;
+        height: 56px;
+        border: 0 none;
+       
+        background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        outline:none;
+        cursor: pointer;
+    }
+    
+    .seta-imagem{
+        width: 18px;
+        height: 10px;
+        margin-left: 10px;
+    }
+    
+    .mais-sobre-bicicletas{
+    width: 108px;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+        
+    }
+    
+    .main-bicicleta-02{
+    
+        background-color: var(--w);
+        position: absolute;
+        width: 200px;
+        height: 460px;
+        position: absolute;
+    
+    }
+    
+    .lista-bicicleta-02{
+        width: 1273px;
+        margin: auto;
+        background-color: var(--c11);
+        height: 460px;
+        margin-top: 60px;
+        margin-left: 75px;
+       
+    }
+    
+    
+    
+    
+    .section-bicicleta02{
+    display: flex;
+    margin-top: 60px;
+    }
+    
+    .imagem-bicicleta-02{
+        background: url('imagens/bicicleta2.png');
+        background-repeat: no-repeat;
+        background-position: center, center;
+        width: 560px;
+        height: 340px;
+        border-radius: 5px;
+    }
+    
+    
+    .container-valor-imagem-bicicleta02{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px 8px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    background-color: var(--c12);
+    margin-left:465px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 20px;
+    }
+    
+    .texto-valor-bicicleta02{
+    width: 67px;
+    height: 24px;
+    font-family: 'Roboto';
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--w);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    
+    
+    .bike-container-section2{
+    margin-left: 40px;
+    }
+    
+    .miniatura-retangulo{
+        width: 12px;
+        height: 8px;
+        background-color: var(--p1);
+    }
+    
+    .h6-bicicleta02{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--w);
+    margin-top: 13px;
+    }
+    
+    .p-bicicleta02{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 447px;
+    height: 72px;
+    color: var(--c5);
+    }
+    .table-bicicletas2{
+        margin-top: 16px;
+    
+    }
+    
+    .img-miniaturas-bicicletas2{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .td-bicleta02-td{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--c5);
+        width: 124px;
+        height: 24px;
+        white-space: nowrap; /*Evitar quebra de linha na tabela*/
+        margin-top: 40px;
+        padding: 8px;
+    }
+    
+    .button-bicicletas-maissobre2{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 16px;
+        
+        position: absolute;
+        width: 206px;
+        height: 56px;
+        left: 1070px;
+        top: 725px;
+        
+        background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    
+    .lista-bicicleta-03{
+        width: 1200px;
+        margin: auto;
+        background-color: var(--w);
+        height: 340px;
+        margin-top: 60px;
+    }
+    
+    .imagem-bicicleta-03{
+        background: url('imagens/bicicleta3.png');
+        background-repeat: no-repeat;
+        background-position: center, center;
+        width: 560px;
+        height: 340px;
+        border-radius: 5px;
+    }
+    
+    .container-valor-imagem-bicicleta03{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px 8px 8px;
+    gap: 10px;
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    background-color: var(--c12);
+    margin-left: 465px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 20px;
+    }
+    
+    .texto-valor-bicicleta03{
+    width: 67px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--w);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    
+    .button-bicicletas-maissobre-02{
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 16px;  
+        position: absolute;
+        margin-top: 284px;
+        left: 1000px;
+        width: 206px;
+        height: 56px;
+        border: 0 none;
+        background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        outline:none;
+        cursor: pointer;
+    }
+    
+    .button-bicicletas-maissobre-03{
+    
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 16px;  
+        position: absolute;
+        margin-top: 284px;
+        left: 1080px;
+        width: 206px;
+        height: 56px;
+        border: 0 none;
+        background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        outline:none;
+        cursor: pointer;
+    
+    }
+
+ /*----------FIM----BICICLETAS--------------*/
+
+ /*----INICIO------BICICLETA----INTERNA--------------*/
+ /*----INICIO------BICICLETA----INTERNA--------------*/
+ /*----INICIO------BICICLETA----INTERNA--------------*/
+ /*----INICIO------BICICLETA----INTERNA--------------*/
+
+
+
+ .container-bicicletainterna{
+    background-color: var(--c11);
+    height: 958px;
+}
+.container-bicicletas-internas-01{
+
+    width: 1200px;
+    height: 940px;
+    margin: auto;
+    background-color: var(--c11);
+    display: flex;
+}
+.bike-interna01{
+
+}
+
+.bike-interna01-A{
+    display: flex;
+    margin-top: 20px;
+}
+
+.bike-interna01-A-imagemA{
+    width: 270px;
+    height: 212px;
+    border-radius: 5px;
+}
+
+.bike-interna01-A-imagemB{
+    width: 270px;
+    height: 212px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+
+
+
+.bike-interna02{
+    margin-left: 40px;
+}
+
+.info-bike-interna{
+width: 560px;
+height: 108px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: var(--c5);
+}
+
+.bike-info-interna02{
+    display: flex;
+    margin-top: 32px;
+}
+
+.button-bike-interna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 225px;
+    height: 56px;
+    background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.venda-bike-interna{
+    width: 161px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;
+}
+
+.bike-interna0202{
+    margin-left: 12px;
+}
+
+.bike-interna020201{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 8px;
+position: absolute;
+width: 130px;
+height: 14px;
+background: var(--c12);
+border-radius: 5px;
+}
+
+.entrega-bike-interna{
+width: 111px;
+height: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: var(--c6);
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.bike-interna020202{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    position: absolute;
+    width: 110px;
+    height: 14px;
+    background: var(--c12);
+    border-radius: 5px;
+    margin-top: 32px;
+    
+}
+
+
+
+.entrega-bike-interna2{
+    width: 88px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--c6);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+
+    .bicicleta-interna-infomacoes-p{
+        width: 98px;
+        height: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+        color: var(--w);
+        margin-top: 40px;
+    }
+
+
+
+
+
+
+
+    .icon-informacoes-gerais{
+        width: 530px;
+        height: 296px;
+        background: var(--c12);
+        border-radius: 5px;
+        margin-top: 12px;
+    }
+
+    .icon-informacoes-gerais-1{
+        display: flex;
+
+
+    }
+
+
+    .icon-informacoes-gerais-01-A{
+        margin-top: 32px;
+        margin-left: 32px;
+
+    }
+
+.icon-informacoes-gerais-01-A-titulo{
+width: 124px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: var(--w)
+}
+
+.icon-informacoes-gerais-01-A-paragrafo{
+position: absolute;
+width: 217px;
+height: 40px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: var(--c5);
+margin-top: 8px;
+}
+
+.icon-informacoes-gerais-2{
+    display: flex;
+    margin-top: 45px;
+
+
+}
+
+
+
+
+
+.icon-informacoes-gerais-02-B{
+    margin-top: 32px;
+    margin-left: 127px;
+
+}
+
+.icon-informacoes-gerais-02-B-titulo{
+    width: 164px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--w)
+    }
+    
+    .icon-informacoes-gerais-02-B-paragrafo{
+    position: absolute;
+    width: 217px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--c5);
+    margin-top: 8px;
+    }
+
+    .container-infor-tecnica{
+        width: 530px;
+        height: 268px;
+        background: var(--c12);
+        border-radius: 5px;
+        margin-top: 12px; 
+    }
+
+    .container-infor-tecnica01{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .hr-infor-tecnica-bike-interna{
+
+width: 466px;
+height: 1px;
+background: var(--c11);
+margin-top: 5px;
+margin-left: 32px;
+    }
+
+
+    .container-infor-tecnica-A-01{
+        width: 37px;
+        height: 24px; 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+
+    .container-infor-tecnica-B-01{
+
+        width: 37px;
+        height: 24px; 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+
+    .container-infor-tecnica-A-0101{
+        width: 37px;
+        height: 24px; 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 6px;
+        margin-left: 32px;
+    }
+
+    .container-infor-tecnica-B-0101{
+
+        width: 55px;
+        height: 24px; 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 6px;
+        margin-right: 32px;
+    }
+
+    .container-infor-tecnica-B-0101-peso{
+
+        width: 32px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 32px;
+        margin-right: 32px;
+    }
+
+
+
+
+
+    .container-infor-tecnica-B-0101-altura{
+
+        width: 46px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 6px;
+        margin-right: 32px;
+    }
+
+
+
+
+
+    .container-infor-tecnica-B-0101-profundidade{
+
+        width: 46px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 6px;
+        margin-right: 32px;
+    }
+
+
+
+
+
+    .container-infor-tecnica-B-0101-marchas{
+
+        width: 19px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 6px;
+        margin-right: 32px;
+    }
+
+
+    .container-infor-tecnica-B-0101-roda{
+
+        width: 19px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;  
+        letter-spacing: 0.015em;
+        color: var(--c4);
+        margin-top: 6px;
+        margin-right: 32px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .container-bicicletainterna2{
+        background-color: var(--w);
+        height: 563px;
+    }
+
+
+    .container-bicicletas-internas-02{
+
+        width: 1200px;
+        height: 546px;;
+        margin: auto;
+        background-color: var(--w);;
+    }
+
+
+    .main-titulo2-bike-interna h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 72px;
+        color: var(--c12);
+        text-transform: lowercase;
+        padding-bottom: 60px;
+        margin-top: 92px;
+    }
+    
+    .main-titulo2-bike-interna h1::after {
+        content: ".";
+        color: var(--p1);
+    }
+
+    .container-bicicletas-internas-02-imagens{
+        display: flex;
+    }
+
+    .container-bicicletas-internas-02-imagensA{
+width: 560px;
+height: 340px;
+border-radius: 5px;
+}
+
+.container-bicicletas-internas-02-imagensB{
+    width: 560px;
+    height: 340px;
+    border-radius: 5px;
+    margin-left: 40px;
+
+}
+
+.container-bicicletas-internas-02-imagensA-info{
+    display: flex;
+}
+
+.container-bicicletas-internas-02-imagensA-info-retangulo{
+    width: 12px;
+    height: 8px;
+    background: var(--p1);
+    margin-top: 15px;
+}
+
+.container-bicicletas-internas-02-imagensA-info-p{
+    width: 271px;
+    height: 40px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--c11);
+    margin-left: 8px;
+}
+
+.container-bicicletas-internas-02-imagensA-valor{
+    width: 67px;
+    height: 24px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+    margin-left: 21px;
+    margin-top: 8px;
+
+}
+
+.container-bicicletainterna3{
+
+}
+.container-bicicletainterna3-flex{
+    display: flex;
+    background-color: var(--c11);
+    margin: auto;
+    margin-top: 120px;
+    height: 516px;
+    justify-content: flex-end;
+    margin-top: 237px;
+}
+
+.container-bicicletainterna3-imagens{
+    position: absolute;
+    width: 680px;
+    height: 756px;
+    background: url(/imagens/seguros.png);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.container-bicicletainterna3-imagens1{
+width: 680px;
+height: 756px;
+border-radius: 5px;
+}
+
+
+.container-bicicletainterna3-info-titulo{
+width: 509px;
+height: 216px;
+left: 820px;
+top: 2224px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+color: var(--w);
+margin-right: 104px;
+margin-top: 60px;
+}
+.container-bicicletainterna3-info-pg{
+    width: 525px;
+    height: 72px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--c5);
+    margin-top: 32px;
+}
+
+.container-bicicletainterna3-info-button{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 204px;
+    height: 56px;
+    background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container-bicicletainterna3-info-pg-button{
+    width: 140px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;    
+}
+
+.main-background-bike-interna-complemento{
+height: 123px;
+background: var(--c12);
+margin-top: 735px;
+}
+
+/*----------FIM----BICICLETAS-INTERNA--------------*/
+
+
+/*----------INÍCIO----SEGUROS--------------*/
+/*----------INÍCIO----SEGUROS--------------*/
+/*----------INÍCIO----SEGUROS--------------*/
+/*----------INÍCIO----SEGUROS--------------*/
+/*----------INÍCIO----SEGUROS--------------*/
+
+
+main{
+    
+}
+
+.main-seguros{
+    background-color: var(--c11);
+
+}
+
+
+
+.main-seguros-container{
+    width: 1200px;
+    height: 634px;
+    margin: auto;
+    background-color: var(--c11);
+    display: flex;
+    
+    
+}
+
+.seguros-prata-flex{
+display: flex;
+justify-content: space-between;
+margin-top: 32px;
+}
+
+.seguros-prata-flex-paragradoA{
+width: 114px;
+height: 48px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+color: var(--w);
+}
+
+.seguros-prata-flex-A{
+    margin-right: 32px;
+}
+
+.seguros-prata-flex-paragradoB{
+    width: 46px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--c6);
+    margin-left: 65px;
+    margin-top: -10px;
+       
+}
+
+
+
+.seguros-prata{
+width: 560px;
+height: 396px;
+background-color: var(--c12);
+margin-top: 104px;
+border-radius: 5px;
+}
+
+.seguros-prata td{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+}
+
+.seguros-prata-flex-h4{
+    width: 118px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--c6);
+    text-transform: uppercase;
+    margin-left: 64px;  
+} 
+
+.seguros-ouro-flex-h4{
+    width: 118px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: var(--p1);
+    text-transform: uppercase;
+    margin-left: 64px;  
+}
+
+
+
+.seguros-prata-flex-paragradoC{
+width: 362px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: var(--w);
+}
+
+.table-prata-seguros{
+margin-left: 45px; 
+margin-top: 0px;
+border-spacing: 8px 20px;
+}
+
+
+
+.container-prata-inscreva-se{
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+width: 125px;
+height: 26px;
+background: var(--c10);
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+margin-left: 60px;
+margin-top: 13px;
+}
+
+.container-prata-inscreva-se-paragrafo{
+    width: 121px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+   color: var(--c4);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;
+}
+
+
+.seguros-ouro{
+    width: 560px;
+    height: 484px;
+    background-color: var(--c12);
+    margin-top: 60px;
+    margin-left: 80px;
+    border-radius: 5px;
+
+}
+
+
+.container-ouro-inscreva-se{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 125px;
+    height: 26px;
+    background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 13px;
+}
+
+.container-ouro-inscreva-se-paragrafo{
+width: 121px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: var(--p5);
+flex: none;
+order: 0;
+flex-grow: 0;
+text-transform: uppercase;
+}
+
+
+
+.item-seguros h6{
+    width: 184px;
+    height: 32px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: var(--c1);
+
+
+}
+
+.item-seguros2 h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: var(--c1);
+
+}
+
+
+
+.section-seguros{
+    width: 1200px;
+    margin: auto;
+    background-color: orangered;
+}
+
+.seguros-main-titulo-seguros{
+    background-color: var(--c12);
+    height: 550px;
+
+}
+
+
+.main-titulo-seguros{
+    background-color: var(--c12);
+    width: 1200px;
+    margin: auto;
+
+}
+
+
+
+.main-titulo-seguros-AA h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--w);
+    text-transform: lowercase;
+    padding-bottom: 60px;
+}
+
+.main-titulo-seguros-AA h1::after {
+    content: ".";
+    color: var(--p1);
+}
+
+
+.container-seguros-flex {
+	display: flex;
+    margin-top: 18px;
+
+    
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+
+.item-seguros{
+    
+padding: 0px;
+gap: 8px;
+width: 360px;
+height: 152px;
+left: 220px;
+top: 1276px;
+
+}
+
+.item-seguros2{
+    padding: 0px;
+    gap: 8px;
+    width: 360px;
+    height: 152px;
+    left: 220px;
+    top: 1276px;
+
+
+
+}
+.teste{
+    width: 360px;
+    height: 72px;
+    color: var(--c6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+.container-perguntas-frequentes{
+    background-color: var(--w);
+    width: 1200px;
+    margin: auto;
+}
+
+.perguntas-frequentes-titulo{
+    width: 726px;
+height: 72px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+color: var(--c11);
+margin-top: 120px;
+}
+
+.perguntas-frequentes-retangulo{
+    width: 1200px;
+    height: 128px;
+    background: var(--c1);
+    border-radius: 5px;
+    margin-top: 88px;
+
+}
+
+.perguntas-frequentes-retangulo-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.perguntas-frequentes-retangulo-flex-seguros-info{
+    display: flex;
+}
+
+.perguntas-frequentes-retangulo-flex-seguros-info-retangulo{
+width: 12px;
+height: 8px;
+background: var(--p1);
+margin-top: 28px;
+}
+
+.perguntas-frequentes-retangulo-flex-seguros-info-paragrafo{
+width: 495px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: var(--c11);
+margin-left: 8px;
+margin-top: 20px;
+}
+
+.perguntas-frequentes-retangulo-paragrafo{
+    width: 832px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c9);
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.perguntas-frequentes-retangulo2{
+width: 1200px;
+height: 64px;
+background: var(--w);
+border-radius: 5px;
+}
+
+.perguntas-frequentes-retangulo3{
+width: 1200px;
+height: 64px;
+background: var(--c1);
+border-radius: 5px;
+}
+
+
+
+
+
+/*----------FIM----SEGUROS--------------*/
+
+/*----------INÍCIO----CONTATO--------------*/
+/*----------INÍCIO----CONTATO--------------*/
+/*----------INÍCIO----CONTATO--------------*/
+/*----------INÍCIO----CONTATO--------------*/
+
+
+
+.main-contato-container{
+    height: 336px;
+    
+background-color:var(--c11);
+
+}
+
+.contato-avo{
+    
+    width: 1200px;
+    height: 576px;
+    margin-top: 20px;
+    background: var(--w);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    left: 60px;
+    margin-left: 16px;
+    
+
+}
+
+.contato-info{
+
+    width: 460px;
+    height: 576px;
+    background-color: var(--c12);
+    border-radius: 5px 0px 0px 5px;
+ 
+}
+
+
+.contato-info-loja{
+width: 213px;
+height: 384px;
+background-color: var(--c12);
+margin-top: 60px;
+margin-left: 60px;
+
+}
+
+
+.titulo-loja{
+width: 90px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: var(--c1);
+}
+
+.flex-info-loja-localizacao{
+    display: flex;
+    
+}
+
+
+
+
+.texto-info-loja{
+width: 181px;
+height: 72px;
+margin-top: 60px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-left: 8px;
+color: var(--c4);
+
+}
+
+
+.flex-info-loja-email{
+    display: flex;
+    
+}
+
+.texto-info-loja-email{
+    width: 181px;
+    height: 72px;
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 8px;
+    color: var(--c4);
+}
+
+
+.flex-info-loja-telefone{
+    display: flex;
+    
+}
+
+.texto-info-loja-telefone{
+    width: 181px;
+    height: 72px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 8px;
+    color: var(--c4);
+}
+
+
+.contato-formulario-container{
+width: 600px;
+height: 476px;
+margin: 60px 40px 40px 60px;
+
+}
+
+.section-contato-info{
+    display: flex;
+}
+
+.texto-input-form-nome{
+
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    background: var(--c1);
+    border: 1px solid var(--c2);
+    border-radius: 5px;
+}
+
+.coluna-telefone{
+    margin-left: 20px;
+}
+
+
+
+
+
+.texto-input-form-telefone{
+
+    box-sizing: border-box;
+    width: 310px;
+    height: 48px;
+    background: var(--c1);
+    border: 1px solid var(--c2);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.descricao-texto-telefone{
+width: 49px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: var(--c11);
+margin-left: 20px;
+}
+
+.descricao-texto-nome{
+    width: 49px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c11);
+    
+    
+    }
+
+.descricao-texto-email{
+    width: 49px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c11);
+}
+
+.email-form-contato{
+    margin-top: 20px;
+}
+
+.texto-input-form-email{
+box-sizing: border-box;
+width: 631px;
+height: 48px;
+background: var(--c1);
+border: 1px solid var(--c2);
+border-radius: 5px;
+}
+
+
+.form-contato-mensagem{
+margin-top: 20px;
+}
+
+.texto-input-form-mensagem{
+box-sizing: border-box;
+width: 631px;
+height: 160px;
+background: var(--c1);
+border: 1px solid var(--c2);
+border-radius: 5px;
+resize: none;
+}
+
+.button-contato-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 236px;
+    height: 56px;
+    background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;   
+}
+
+.info-button-contato-form{
+    width: 172px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder{
+    width: 144px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    padding: 10px;
+}
+
+.container-lojas-locais-contato{
+background-color: pink;
+margin: auto;
+width: 1200px;
+    height: 96px;
+}
+
+
+
+.locais-contato{
+    width: 1200px;
+    height: 576px;
+    margin-top: 120px;
+    background: var(--c2);
+    border-radius: 5px;
+}
+
+.main-titulo-locais h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--c11);
+    text-transform: lowercase;
+    padding-bottom: 60px;
+}
+
+.main-titulo-locais h1::after {
+    content: ".";
+    color: var(--p1);
+}
+
+.locais-contato-section{
+    display: flex;
+    margin-top: 5px;
+}
+
+.locais-contato-section-a{
+    width: 560px;
+    height: 512px;
+    background-color: var(--w);
+
+}
+
+.container-rio-retangulo-titulo{
+display: flex;
+margin-top: 32px;
+}
+
+.retangulo-rio{
+    width: 12px;
+    height: 8px;
+    background-color: var(--p1);
+    margin-top: 15px;
+    margin-left: 36px;
+}
+
+.info-rio-a{
+ display: flex;
+}
+
+
+
+
+.contato-rio{
+    width: 230px;
+    height: 40px;;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--c12);
+    margin-left: 12px;
+}
+
+.container-rio-endereco{
+    display: flex;
+}
+
+.linha-horizontal{
+width: 2px;
+height: 64px;
+background: var(--c2);
+margin-left: 60px;
+margin-top: 32px;
+}
+
+.locais-contato-section-b{
+    width: 560px;
+    height: 512px;
+    background-color: var(--w);
+    margin-left: 80px;
+}
+
+.rio-endereco-final{
+    width: 135px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #595959;
+}
+
+.endereco-info-a{
+
+    margin-left: 12px;
+    margin-top: 32px;
+}
+
+.rio-horario-info-flex{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.horario-rio-contato{
+
+width: 150px;
+height: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+margin-left: 8px;
+}
+
+/*----------FIM----CONTATO--------------*/
+
+
+/*----------INÍCIO----ORÇAMENTO--------------*/
+/*----------INÍCIO----ORÇAMENTO--------------*/
+/*----------INÍCIO----ORÇAMENTO--------------*/
+/*----------INÍCIO----ORÇAMENTO--------------*/
+/*----------INÍCIO----ORÇAMENTO--------------*/
+
+
+
+.main-orcamento-container{
+    height: 336px;
+    
+background-color:var(--c11);
+
+}
+
+.orcamento-avo{
+    
+    width: 1200px;
+    height: 928px;
+    margin-top: 20px;
+    background: var(--w);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    left: 60px;
+    margin-left: 16px;
+    
+
+}
+
+.orcamento-info{
+
+    width: 460px;
+    height: 928px;
+    background-color: var(--c12);
+    border-radius: 5px 0px 0px 5px;
+ 
+}
+
+
+.orcamento-info-loja{
+width: 213px;
+height: 384px;
+background-color: var(--c12);
+margin-top: 60px;
+margin-left: 60px;
+
+}
+
+
+.orcamento-info-loja-flex{
+display: flex;
+}
+
+.orcamento-info-loja-flex-retangulo{
+    width: 4px;
+    height: 8px;
+    background: var(--p1);
+    margin-top: 8px;
+
+}
+.orcamento-titulo-loja{
+
+    width: 140px;
+    height: 24px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: var(--c5);
+    margin-left: 8px;
+}
+
+.orcamento-bike-ou-craft{
+    display: flex;
+    margin-top: 20px;
+    width: 340px;
+    margin-left: 12px;
+}
+
+.orcamento-bike-ou-craft-01{
+    width: 260px;
+    height: 48px; 
+    background: var(--w);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.orcamento-bike-ou-craft-01-elipse{
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--c7);
+    border-radius: 50%;
+    margin-left: 18px;
+
+}
+
+.orcamento-bike-ou-craft-01-elipse-ponto{
+box-sizing: border-box;
+width: 4px;
+height: 4px;
+background: var(--c7);
+border: 1px solid var(--c7);
+border-radius: 50%;
+position: absolute;
+left: 94px;
+margin-top: 3px;
+
+}
+
+
+.orcamento-bike-ou-craft-02-elipse-ponto{
+box-sizing: border-box;
+width: 12px;
+height: 12px;
+border: 1px solid var(--c6);
+border-radius: 50%;
+margin-left: 18px;
+}
+
+
+.orcamento-bike-ou-craft-02-paragrafo{
+    width: 58px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--c4);
+    margin-left: 8px;
+
+}
+
+
+
+.orcamento-bike-ou-craft-02{
+    width: 280px;
+    height: 48px;   
+    background: var(--c10);
+    border-radius: 5px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.orcamento-bike-ou-craft-01-paragrafo{
+width: 61px;
+height: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: var(--c11);
+margin-left: 8px;
+}
+
+
+.orcamento-info-loja-flex-escolha-a-sua{
+display: flex;
+}
+
+.orcamento-info-loja-flex-retangulo-escolha-sua{
+    width: 4px;
+    height: 8px;
+    background: var(--p1);
+    margin-top: 48px;
+}
+
+.orcamento-titulo-loja-paragrafo-escolha-a-sua{
+    width: 140px;
+    height: 24px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: var(--c5);
+    margin-left: 8px;
+    margin-top: 40px;
+}
+
+.orcamento-buscar-bike{
+display: flex;
+width: 340px;
+height: 48px;
+background: var(--c10);
+border-radius: 5px;
+align-items: center;
+margin-left: 10px;
+margin-top: 24px;
+}
+
+.orcamento-buscar-bike-circulo{
+box-sizing: border-box;
+position: absolute;
+width: 12px;
+height: 12px;
+border: 1px solid var(--c6);
+border-radius: 50%;
+margin-left: 16px;
+}
+
+.orcamento-buscar-bike-pg{
+width: 128px;
+height: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: var(--c4);
+margin-left: 38px;
+}
+
+.orcamento-container-info-valores-retangulo{
+    width: 340px;
+    height: 156px;
+    background: var(--w);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.orcamento-container-info-valores-A{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orcamento-container-info-valores-A-01{
+    display: flex;
+}
+
+.orcamento-container-info-valores-A-01-circulo{
+box-sizing: border-box;
+width: 12px;
+height: 12px;
+border: 1px solid var(--c7);
+border-radius: 50%;
+margin-top: 18px;
+margin-left: 18px;
+}
+.orcamento-container-info-valores-A-01-info{
+    width: 100px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--c11);
+    margin-top: 16px;
+    margin-left: 8px;
+}
+.orcamento-container-info-valores-A-02{
+width: 65px;
+height: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: var(--c11);
+margin-top: 16px;
+margin-right: 16px;
+}
+
+.orcamento-informacoesgerais-bike{
+    display: flex;
+}
+
+.orcamento-informacoesgerais-bike-flex{
+    display: flex;
+    margin-top: 1px;
+    border-spacing: 12px 3px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.orcamento-informacoesgerais-bike-imagens{
+width: 140px;
+height: 88px;
+border-radius: 5px;
+margin-top: 16px;
+margin-left: 0px;
+}
+
+.orcamento-informacoesgerais-bike-icons{
+width: 16px;
+height: 16px;
+}
+.orcamento-informacoesgerais-bike-paragrafo{
+    width: 115px;
+    height: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--c8);
+    
+}
+
+.orcamento-informacoesgerais-bike-icons-01{
+    width: 16px;
+    height: 16px;
+    margin-left: 38px;
+    margin-top: 20px;
+    }
+    .orcamento-informacoesgerais-bike-paragrafo-01{
+        width: 83px;
+        height: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--c8);
+        margin-left: 8px;
+        margin-top: 20px;
+        
+    }
+
+
+
+
+
+
+
+    
+
+/*ATENÇÂO*/
+
+
+.orcamento-flex-info-loja-localizacao{
+    display: flex;
+    
+}
+
+
+
+
+.orcamento-texto-info-loja{
+width: 181px;
+height: 72px;
+margin-top: 60px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-left: 8px;
+color: var(--c4);
+
+}
+
+
+.orcamento-flex-info-loja-email{
+    display: flex;
+    
+}
+
+.orcamento-texto-info-loja-email{
+    width: 181px;
+    height: 72px;
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 8px;
+    color: var(--c4);
+}
+
+
+.orcamento-flex-info-loja-telefone{
+    display: flex;
+    
+}
+
+.orcamento-texto-info-loja-telefone{
+    width: 181px;
+    height: 72px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 8px;
+    color: var(--c4);
+}
+
+
+.orcamento-formulario-container{
+width: 600px;
+height: 476px;
+margin: 60px 40px 40px 60px;
+}
+
+
+.orcamento-container-dadospessoais{
+    display: flex;
+}
+
+.orcamento-container-dadospessoais-retangulo{
+    width: 4px;
+    height: 8px;
+    background: var(--p1);
+    margin-top: 8px;
+}
+
+.orcamento-container-dadospessoais-pg{
+
+width: 105px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0.015em;
+text-transform: uppercase;
+color: var(--c9);
+text-transform: uppercase;
+margin-left: 8px;
+}
+
+.orcamento-container-dadospessoais-A{
+    display: flex;
+    margin-top: 60px;
+}
+
+.orcamento-container-dadospessoais-retangulo-A{
+    width: 4px;
+    height: 8px;
+    background: var(--p1);
+    margin-top: 8px;
+}
+
+.orcamento-container-dadospessoais-pg-A{
+
+width: 105px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0.015em;
+text-transform: uppercase;
+color: var(--c9);
+text-transform: uppercase;
+margin-left: 8px;
+}
+
+
+
+
+.section-orcamento-info{
+    display: flex;
+}
+
+.coluna-nome{
+    margin-top: 20px;
+}
+
+
+
+.orcamento-texto-input-form-nome{
+
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    background: var(--c1);
+    border: 1px solid var(--c2);
+    border-radius: 5px;
+}
+
+.orcamento-coluna-telefone{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.orcamento-texto-input-form-telefone{
+
+    box-sizing: border-box;
+    width: 310px;
+    height: 48px;
+    background: var(--c1);
+    border: 1px solid var(--c2);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.orcamento-descricao-texto-telefone{
+width: 49px;
+height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: var(--c11);
+margin-left: 20px;
+}
+
+.orcamento-descricao-texto-nome{
+    width: 49px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c11);
+    
+    
+    }
+
+.orcamento-descricao-texto-email{
+    width: 49px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c11);
+}
+
+.orcamento-email-form-contato{
+    margin-top: 20px;
+}
+
+.texto-input-form-email{
+box-sizing: border-box;
+width: 631px;
+height: 48px;
+background: var(--c1);
+border: 1px solid var(--c2);
+border-radius: 5px;
+}
+
+
+.orcamento-form-contato-mensagem{
+margin-top: 20px;
+}
+
+
+.orcamento-button-contato-form{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 10px;
+position: absolute;
+width: 277px;
+height: 56px;
+background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+border-radius: 5px; 
+border: 0px;
+margin-top: 16px;
+}
+
+.orcamento-info-button-contato-form{
+    width: 213px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--p5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder{
+    width: 144px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    padding: 10px;
+}
+
+.orcamento-form-condicoes{
+    display: flex;
+    margin-top: 20px;
+}
+
+.orcamento-form-condicoes-retangulo{
+box-sizing: border-box;
+width: 32px;
+height: 32px;
+background: var(--c1);
+border: 1px solid var(--c4);
+border-radius: 5px;
+}
+
+.orcamento-form-condicoes-paragrafo{
+    width: 281px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c11);
+    margin-left: 12px;
+    margin-top: 5px;
+
+}
+
+.sublinhado-condicoes{
+    text-decoration: underline;
+}
+
+.orcamento-container-info-valores-A-01-circulo-elipse{
+    box-sizing: border-box;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    background: var(--c7);
+    border: 1px solid var(--c7);
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+
+.orcamento-selected-filho{
+
+    box-sizing: border-box;
+    width: 313px;
+    height: 48px;
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--c7);
+    margin-left: 18px;
+    padding-left: 7px;
+    outline: none;
+}
+
+
+
+/*----------FIM----ORÇAMENTO--------------*/
+
+
+/*----------INÍCIO----TERMOS--------------*/
+/*----------INÍCIO----TERMOS--------------*/
+/*----------INÍCIO----TERMOS--------------*/
+/*----------INÍCIO----TERMOS--------------*/
+
+
+
+
+/*---------- TESTE --------------*/
+
+
+
+
+
